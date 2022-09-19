@@ -9,3 +9,28 @@ body {
     padding: 0;
     margin: 0;
 }
+
+header {
+    background-image: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.troll {
+    height: 4rem;
+    width :auto;
+}
+
+.header > h2 {
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin-left: 0.9rem;
+}
