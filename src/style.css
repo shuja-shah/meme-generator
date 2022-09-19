@@ -40,11 +40,13 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1rem;
+    margin-top: 5.4rem;
 }
 
 .input {
     grid-row: 1/2;
     padding: 1rem 2rem;
+    margin: 0 3rem;
 
 }
 
@@ -53,4 +55,9 @@ header {
     grid-column: 1/3;
     padding: 0.5rem 0;
     background-image: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%) ;
+    margin: 0 10rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
 }
